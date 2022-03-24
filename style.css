@@ -1,11 +1,33 @@
+*{
+    font-family:  sans-serif;
+}
+#area{
+background-color: #E9EDF5;
+}
+
+
+.nav-link:hover{color: blueviolet;
+}
+nav-item{
+    margin:10px;
+}
+.navbar-brand{
+    margin-left: 50px;
+}
 .sign_in{
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: transparent;
     border-color:blueviolet; 
-    border-style: solid; 
     color: blueviolet; 
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 8px 24px;
+ 
 }
 .sign_in:hover{
-    color: white; 
+    color:white;
     background-color: blueviolet;     
 }
 #text{
@@ -16,7 +38,7 @@
 #subscribe{
     height: 35px;
     width: 150px;
-    background-color: blueviolet;
+    background-color:blueviolet;
     color: white;
 }
 #subscribe_newsletter{
@@ -24,7 +46,25 @@
     width: 300px;
 
 }
+.title{
+    text-align: center;
+    font-size:medium;
+    font-weight: lighter;
+    color: blueviolet;
+}
+.title2{
+    text-align: center;
+    font-size:xx-large;
+    font-weight: bold;
+}
+
 #form{
     margin-top:10%;
     margin-left: 15%;  
+}
+#link-learn{
+    color: blueviolet;
+    font-weight: bold;
+    font-size: small;
+    text-align: center;
 }
