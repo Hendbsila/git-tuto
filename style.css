@@ -1,0 +1,30 @@
+.sign_in{
+    border-color:blueviolet; 
+    border-style: solid; 
+    color: blueviolet; 
+    font-weight: bold;
+}
+.sign_in:hover{
+    color: white; 
+    background-color: blueviolet;     
+}
+#text{
+    text-align: justify;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+#subscribe{
+    height: 35px;
+    width: 150px;
+    background-color: blueviolet;
+    color: white;
+}
+#subscribe_newsletter{
+    height: 35px;
+    width: 300px;
+
+}
+#form{
+    margin-top:10%;
+    margin-left: 15%;  
+}
